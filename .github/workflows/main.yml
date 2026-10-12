@@ -1,0 +1,6 @@
+ssh pi@raspberrypi.local
+git clone https://github.com/DeroXP/CloudDeck.git
+cd CloudDeck/pi
+cp ../.env.example .env
+# Edit .env — set PI_SECRET_TOKEN (matching Railway), PC_MAC_ADDRESS
+sudo bash install.sh
